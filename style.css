@@ -1,0 +1,137 @@
+body {
+	margin: 0;
+	}
+
+.head {
+	font-family: 'Arial Black';
+	font-size: 40;
+	margin: 170px 0 0 64%;
+	position: absolute;
+	transition: all .2s ease-in-out;
+	/*background-color: #8af0f7;*/
+	padding: 10px;
+	padding-left: 15px;
+	
+	}
+	
+.head:hover {
+-webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+        color: #e01ab8;
+        transform: scale(1.1);
+        font-size: 45;
+        }	
+        
+.phone {
+	position: absolute;
+	margin: 65px 0 0 59%;
+	height: 486px;
+	width: 275px;
+	background-size: cover;
+	}
+
+#face {
+   background-image: url('Face.jpg');
+   height: 550px;
+   width: 550px;
+   background-repeat: no-repeat; 
+   background-position: 80% 20%; 
+   background-size: cover; 
+   margin: 160px 0 0 10%;
+   
+}
+
+#face:hover {
+   background-image: url('Name.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   -webkit-animation: swing 1s ease;
+        animation: swing 1s ease;
+        -webkit-animation-iteration-count: 1;
+        animation-iteration-count: 1;
+}
+
+
+.text {
+	font-family: 'Arial Black';
+	font-size: 30;
+	margin: -90px 0 0 80%;
+	float: right;
+	position: absolute;
+	transition: all .2s ease-in-out;
+	}
+	
+.text:hover {
+	font-size: 45;
+	color: rgb(183, 40, 195);
+	transform: scale(1.1);
+	}	
+	
+	@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
